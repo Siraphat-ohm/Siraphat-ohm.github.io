@@ -7,7 +7,7 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": [
+    "experimentalScannerIgnores": [
       "src/**/*.css",
       "src/public/**/*",
       "dist/**/*",
@@ -16,10 +16,8 @@
   },
   "formatter": {
     "enabled": true,
-    "indentStyle": "tab"
-  },
-  "organizeImports": {
-    "enabled": true
+    "indentStyle": "tab",
+    "organizeImports": true
   },
   "linter": {
     "enabled": true,
@@ -34,7 +32,7 @@
   },
   "overrides": [
     {
-      "include": ["*.svelte", "*.astro", "*.vue"],
+      "includes": ["*.svelte", "*.astro", "*.vue"],
       "linter": {
         "rules": {
           "style": {
