@@ -7,19 +7,21 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": [
-      "**",
-      "!**/src/**/*.css",
-      "!**/src/public/**/*",
-      "!**/dist/**/*",
-      "!**/node_modules/**/*"
-    ]
+    "include": ["**", "!src/**/*.css"]
   },
+
   "formatter": {
     "enabled": true,
     "indentStyle": "tab"
   },
-  "assist": { "actions": { "source": { "organizeImports": "on" } } },
+  "assists": {
+    "actions": {
+      "source": {
+        "sortJsxProps": "on",
+        "useSortedKeys": "on"
+      }
+    }
+  },
   "linter": {
     "enabled": true,
     "rules": {
@@ -45,7 +47,7 @@
   },
   "overrides": [
     {
-      "includes": ["**/*.svelte", "**/*.astro", "**/*.vue"],
+      "include": ["**/*.svelte", "**/*.astro", "**/*.vue"],
       "linter": {
         "rules": {
           "style": {
