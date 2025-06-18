@@ -5,7 +5,7 @@ description: วิศวะคอมเกษตรปี 1
 image: ""
 tags: [CPE, KU]
 category: misc
-draft: true
+draft: false
 lang: th
 ---
 

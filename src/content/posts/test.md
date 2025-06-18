@@ -1,5 +1,5 @@
 ---
-title: test
+title: 
 published: 2025-06-18
 description: ''
 image: ''
