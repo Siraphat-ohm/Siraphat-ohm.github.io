@@ -1,7 +1,7 @@
 ---
-title: swuctf-sp1
+title: SWU CTF Make Your Own Luck Write ups
 published: 2025-07-01
-description: 'writeups special challenge'
+description: 'write ups Zpecial-Challenge'
 image: ''
 tags: ["SWU CTF", "CTF"]
 category: ''
@@ -53,6 +53,7 @@ reveal()
 จะเห็นว่า key hardcode ไว้
 
 ```python
+key = 42
 flag = ''.join(chr(c ^ (key % 256)) for c in cry)
 ```
 
